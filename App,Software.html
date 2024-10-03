@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apps and Software</title>
+    <link rel="stylesheet" href="To-do list CSS.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #000, #333);
+        font-family: "Segoe UI", sans-serif;
+      }
+      #construction-container {
+        text-align: center;
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 255, 255, 0.3);
+        color: #fff;
+        width: 80%;
+        max-width: 800px;
+      }
+      #construction-heading-1 {
+        color: #00ffff;
+        font-size: 4em;
+        text-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+        animation: zoomInOut 2s ease-in-out infinite alternate;
+        margin-bottom: 20px;
+      }
+      #construction-heading-2 {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 2em;
+        margin-top: 10px;
+        animation: blinkText 1.5s infinite;
+      }
+      #back-home-btn {
+        margin-top: 40px;
+        padding: 15px 40px;
+        font-size: 1.2em;
+        border: none;
+        background-color: #00ffff;
+        color: #000;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0, 255, 255, 0.5);
+        transition: background-color 0.3s ease;
+      }
+      #back-home-btn:hover {
+        background-color: #fff;
+        color: #00ffff;
+      }
+      @keyframes zoomInOut {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.3);
+        }
+      }
+      @keyframes blinkText {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      #construction-icon {
+        font-size: 4em;
+        color: #00ffff;
+        margin-bottom: 30px;
+        animation: rotateIcon 3s linear infinite;
+      }
+
+      @keyframes rotateIcon {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="construction-container">
+      <h1 id="construction-heading-1">Under Development</h1>
+      <h1 id="construction-heading-2">Come Back Soon Later</h1>
+      <button
+        id="back-home-btn"
+        onclick="location.href='To-do list HTML.html';"
+      >
+        Go Back Home
+      </button>
+    </div>
+  </body>
+</html>
