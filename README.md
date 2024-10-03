@@ -1,0 +1,2 @@
+In this repostry the file To-Do list HTML, is the main landing page which includes animations in the webpage along with responsive features added, and one main CSS file is sed to edit all which is To-Do list CSS this contains all the styling added for each and every page of the website including the animations. Nxt the functionality of the webpage is done through the JS file To-Do list Javascript.
+Finally the webpages within the website is developed by the HTML files New List, My List, Contact, Completed Tasks, App,Software.
